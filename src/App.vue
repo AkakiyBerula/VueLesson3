@@ -1,19 +1,25 @@
 <template>
   <div>
-    <HelloWorld :msg="'Hello!!!'"/>
+    <HelloWorld :msg="''"/>
+    <h1 class="text-center">Компоненти</h1>
     <AxiosAPI />
+    <LocalComponent/>
+    <v-divider></v-divider>
+    <GlobalComponent/>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue';
 import AxiosAPI from './components/AxiosAPI.vue';
+import LocalComponent from './components/LocalComponent.vue';
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
-    AxiosAPI
+    AxiosAPI,
+    LocalComponent
   }
 }
 </script>

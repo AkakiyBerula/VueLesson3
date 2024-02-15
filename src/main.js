@@ -11,9 +11,15 @@ import { createVuetify } from 'vuetify';
 import * as components from 'vuetify/components'
 import * as directives from 'vuetify/directives'
 
+import GlobalComponent from '@/components/GlobalComponent.vue'
+
+
 const vuetify = createVuetify({
     components,
     directives
 })
 
-createApp(App).use(vuetify).mount('#app')
+createApp(App)
+    .component('GlobalComponent', GlobalComponent)
+    .use(vuetify)
+    .mount('#app')
