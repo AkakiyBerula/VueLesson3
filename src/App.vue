@@ -1,5 +1,6 @@
 <template>
   <div>
+    <switcher />
     <HelloWorld :msg="''"/>
     <h1 class="text-center">Компоненти</h1>
     <AxiosAPI />
@@ -13,13 +14,15 @@
 import HelloWorld from './components/HelloWorld.vue';
 import AxiosAPI from './components/AxiosAPI.vue';
 import LocalComponent from './components/LocalComponent.vue';
+import Switcher from './components/Switcher.vue'
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
     AxiosAPI,
-    LocalComponent
+    LocalComponent,
+    Switcher
   }
 }
 </script>
