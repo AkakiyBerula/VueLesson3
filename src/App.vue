@@ -3,10 +3,7 @@
     <switcher />
     <HelloWorld :msg="''"/>
     <h1 class="text-center">Компоненти</h1>
-    <AxiosAPI />
-    <LocalComponent/>
-    <v-divider></v-divider>
-    <GlobalComponent/>
+    <AxiosAPI />   
   </div>
 </template>
 
