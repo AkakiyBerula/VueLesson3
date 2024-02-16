@@ -4,6 +4,7 @@
     <HelloWorld :msg="''"/>
     <h1 class="text-center">Компоненти</h1>
     <selector />
+    <attributes />
     <AxiosAPI />   
   </div>
 </template>
@@ -14,6 +15,7 @@ import AxiosAPI from './components/AxiosAPI.vue';
 import LocalComponent from './components/LocalComponent.vue';
 import Switcher from './components/Switcher.vue';
 import Selector from './components/Selector.vue';
+import Attributes from './components/Attributes.vue'
 
 export default {
   name: 'App',
@@ -22,7 +24,8 @@ export default {
     AxiosAPI,
     LocalComponent,
     Switcher,
-    Selector
+    Selector,
+    Attributes
   }
 }
 </script>
