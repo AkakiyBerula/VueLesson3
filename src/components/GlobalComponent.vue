@@ -29,7 +29,7 @@ export default {
 }
 
 .text {
-  font-size: 16px; /* Розмір тексту */
-  text-align: center; /* Вирівнювання тексту по центру */
+  font-size: 16px;
+  text-align: center;
 }
 </style>

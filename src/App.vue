@@ -3,6 +3,7 @@
     <switcher />
     <HelloWorld :msg="''"/>
     <h1 class="text-center">Компоненти</h1>
+    <selector />
     <AxiosAPI />   
   </div>
 </template>
@@ -11,7 +12,8 @@
 import HelloWorld from './components/HelloWorld.vue';
 import AxiosAPI from './components/AxiosAPI.vue';
 import LocalComponent from './components/LocalComponent.vue';
-import Switcher from './components/Switcher.vue'
+import Switcher from './components/Switcher.vue';
+import Selector from './components/Selector.vue';
 
 export default {
   name: 'App',
@@ -19,7 +21,8 @@ export default {
     HelloWorld,
     AxiosAPI,
     LocalComponent,
-    Switcher
+    Switcher,
+    Selector
   }
 }
 </script>

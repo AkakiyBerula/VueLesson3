@@ -1,22 +1,20 @@
 <template>
   <div class="text-container">
-    <v-container fluid class="bg-success">
+    <v-container fluid class="bg-primary">
       <v-card-text class="text">
-        {{ message }}
+        Блок з властивістю фону {{ message }}!
       </v-card-text>
     </v-container>
   </div>
 </template>
 
 <script>
+
 export default {
-  name: 'LocalComponent',
-  data() {
-    return {
-      message: "Привіт з локального компоненту!!!"
-    }
-  }
+  name: 'Block1',
+  props: ["message"]
 }
+
 </script>
 
 <style scoped>
